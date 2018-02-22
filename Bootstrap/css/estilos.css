@@ -1,0 +1,172 @@
+/* clase para darle estilo al body */
+.body-blog{
+    background-image: url(../img/hector.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* clase para darle estilo al barra de navegación */
+.navbar{
+    min-height: 10%;
+    background: rgba(0,0,0,0.85);
+    border: none;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    text-align: center;
+    background: rgba(255,96,108,1);
+    height: 40px;
+}
+
+
+
+.btn a{
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn a:hover{
+    color: #000;
+    text-decoration: none !important;
+    
+}
+
+
+/* clase para modificar tamaño de logo */
+.logo-img{
+    padding: 20px 45px 15px;
+    height: 150px;
+}
+
+/* clase para fila en header */ 
+.fila{
+    height: 75px;
+    padding: 0;
+}
+
+/* clase para darle estilo a las redes */
+
+.redes{
+    padding: 0;
+    height: 75px;
+}
+
+/* clase para darle estilo a las imagenes de redes sociales */
+.img-social {
+    margin: 10px;
+    width: 45px;
+}
+
+/* clase para darle estilo a los botones de redes sociales cuando el mouse pasa por arriba */
+.img-social:hover{
+    transform: scale(1.1);
+}
+
+/*clase para darle estilo a el contenido */
+.contenido{
+    background: rgba(0,0,0,0.9);
+    border-radius: 10px;
+}
+ 
+/* clase para darle estilo a las imagenes del contenido */
+
+.img-cont{
+    width: 100%;
+}
+
+/* clase para darle estilo al texto del contenido */
+
+.text{
+    color: #fff;
+    text-align: justify;
+}
+
+/* clase para darle etilo a los contenidos pares */
+
+.text:nth-child(even) h1{
+    text-align: right;
+}
+
+/* clase para darle etilo a los contenidos pares */
+
+.text:nth-child(odd) h1{
+    text-align: left;
+}
+
+/* clase para darle estilo a los textarea */
+
+.textarea{
+      width: 100%;
+    height: 100%;
+}
+
+
+.icon-user{
+    color: #fff;
+    font-size: 110px;
+}
+
+.img-textarea{
+    width: 100%;
+    min-width: 40px
+}
+
+.area{
+    margin-top: 20px;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+
+/* media query para dispositivos con un ancho maximo de 770 píxeles */
+
+@media(max-width:770px){
+    
+    .clear-xs{
+        display: none;
+    }
+    
+    .center-xs{
+        text-align: center;
+    }
+    
+    .logo-img{
+        height: 100px;
+    }
+    
+    .img-social{
+        height: 30px;
+        width: 30px;
+    }
+    
+    
+    .xs{
+        height: 50px;
+    }
+    
+    .menu{
+        height: 100%;
+    }
+    
+    .icon-user{
+        
+        font-size: 55px;
+    }
+    
+}
+
+
+
+
