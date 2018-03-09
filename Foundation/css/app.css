@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/tablero.jpg);
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-position: top center;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.principal{
+    background: rgba(180,23,35,0.7) !important;
+}
+
+.secondary{
+    background: rgba(23,180,168,0.7) !important;
+}
+
+.success{
+    background: rgba(9,47,44,0.9) !important;
+}
+
+.favoritos{
+    margin-top: 20px;
+}
+
+.img-fav{
+    margin-top: 5px;
+}
+
+.font-principal{
+    color: rgba(180,23,35,1);
+}
+
+.font-white{
+    color: #fff;
+}
+
+.comentarios{
+    margin-top: 20px;
+}
